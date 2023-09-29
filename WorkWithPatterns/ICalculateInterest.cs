@@ -8,6 +8,6 @@ namespace WorkWithPatterns
 {
     public interface ICalculateInterest
     {
-        void Execute();
+        void Execute(Account account);
     }
 }
